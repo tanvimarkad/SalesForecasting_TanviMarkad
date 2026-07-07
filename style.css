@@ -1,0 +1,250 @@
+/* =========================================
+   SALES FORECASTING DASHBOARD
+   Professional Dark Theme
+========================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family:'Poppins',sans-serif;
+}
+
+/* Background */
+
+.stApp{
+    background:linear-gradient(135deg,#eef4ff,#f8fbff);
+}
+
+/* Main Container */
+
+.main .block-container{
+    padding-top:2rem;
+    padding-left:3rem;
+    padding-right:3rem;
+    padding-bottom:2rem;
+}
+
+/* Header */
+
+h1{
+    color:#0F172A;
+    font-weight:700;
+    letter-spacing:.5px;
+}
+
+h2,h3{
+    color:#1E293B;
+    font-weight:600;
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"]{
+    background:#0F172A;
+}
+
+section[data-testid="stSidebar"] *{
+    color:white;
+}
+
+section[data-testid="stSidebar"] .stRadio label{
+    color:white;
+}
+
+section[data-testid="stSidebar"] .stSelectbox label{
+    color:white;
+}
+
+/* KPI Cards */
+
+div[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    border:1px solid #dbe4ff;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+}
+
+div[data-testid="metric-container"]:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 12px 28px rgba(0,0,0,.15);
+}
+
+/* Metric Value */
+
+div[data-testid="metric-container"] label{
+
+    color:#64748B !important;
+
+    font-weight:600;
+}
+
+div[data-testid="metric-container"] div{
+
+    color:#0F172A;
+
+    font-weight:bold;
+}
+
+/* Buttons */
+
+.stButton>button{
+
+    width:100%;
+
+    border:none;
+
+    border-radius:10px;
+
+    padding:12px;
+
+    background:#2563EB;
+
+    color:white;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.stButton>button:hover{
+
+    background:#1D4ED8;
+
+    transform:scale(1.03);
+}
+
+/* Download Button */
+
+.stDownloadButton>button{
+
+    width:100%;
+
+    background:#16A34A;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    padding:12px;
+
+    font-weight:600;
+}
+
+.stDownloadButton>button:hover{
+
+    background:#15803D;
+}
+
+/* DataFrame */
+
+div[data-testid="stDataFrame"]{
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    border:1px solid #dbe4ff;
+
+    box-shadow:0 6px 15px rgba(0,0,0,.08);
+}
+
+/* Plotly Charts */
+
+.js-plotly-plot{
+
+    border-radius:15px;
+
+    background:white;
+
+    padding:15px;
+
+    box-shadow:0 6px 20px rgba(0,0,0,.08);
+}
+
+/* Success */
+
+.stSuccess{
+
+    border-radius:10px;
+}
+
+/* Info */
+
+.stInfo{
+
+    border-radius:10px;
+}
+
+/* Warning */
+
+.stWarning{
+
+    border-radius:10px;
+}
+
+/* Expander */
+
+details{
+
+    border-radius:10px;
+
+    background:white;
+
+    padding:8px;
+
+    border:1px solid #dbe4ff;
+}
+
+/* Tabs */
+
+button[role="tab"]{
+
+    font-weight:600;
+
+    border-radius:8px;
+
+    margin-right:8px;
+}
+
+button[role="tab"][aria-selected="true"]{
+
+    background:#2563EB !important;
+
+    color:white !important;
+}
+
+/* Input Boxes */
+
+.stTextInput input,
+
+.stNumberInput input,
+
+.stSelectbox div{
+
+    border-radius:8px;
+}
+
+/* Footer */
+
+.footer{
+
+    text-align:center;
+
+    color:#64748B;
+
+    margin-top:40px;
+
+    font-size:14px;
+}
